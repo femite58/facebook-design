@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+:root {
+  --priCol: #1877f2;
+}
+body {
+  margin: 0;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+main {
+  background: #f0f2f5;
+  padding: 100px 0;
+}
+.container {
+  max-width: 980px;
+  margin: auto;
+}
+#introFlex {
+  display: flex;
+  gap: 35px;
+}
+img {
+  height: 106px;
+  margin-left: -31px;
+}
+h2 {
+  font-size: 28px;
+  margin: 0;
+  max-width: 500px;
+  font-weight: 400;
+}
+footer {
+  background: #fff;
+  padding: 20px 0;
+}
+form {
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px #00000014;
+}
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 12px;
+  height: 52px;
+  padding: 14px 16px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cccccc;
+  font-size: 17px;
+}
+input:focus {
+  border-color: var(--priCol);
+  box-shadow: 0 0 0 2px #e7f3ff;
+}
+button {
+  height: 48px;
+  display: block;
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: var(--priCol);
+}
+.rightSide {
+  width: 396px;
+}
